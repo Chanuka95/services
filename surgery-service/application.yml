@@ -20,9 +20,9 @@ spring:
     hikari:
     connectionTimeout: 20000
     maximumPoolSize: 5
-    username: root
+    username: shavantha
     password: Welcome12!@
-    url: jdbc:mysql://localhost:3306/surgery_db
+    url: jdbc:mysql://192.168.1.100:3306/surgery_db
   cloud:
     stream:
       bindings:
